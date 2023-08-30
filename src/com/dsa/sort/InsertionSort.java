@@ -1,6 +1,8 @@
 package com.dsa.sort;
 
 public class InsertionSort {
+    //time: O(n^2)
+    //space: O(1)
     void sort(int arr[]) {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
