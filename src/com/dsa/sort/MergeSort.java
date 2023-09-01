@@ -11,7 +11,7 @@ public class MergeSort {
     }
 
     private static void divide(ArrayList<Integer> arr, int startIndex, int endIndex) {
-      //leaf
+        //leaf
         if (startIndex == endIndex) {
             return;
         }
